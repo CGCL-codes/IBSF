@@ -38,6 +38,18 @@ Our IBSF currently implements custom data loaders for the following datasets.
 - ImageNet (needs manual download)
 - GTSRB (needs manual download)
 
+## Citation
+```shell
+@inproceedings{
+xiaofan2024intersectingboundarysensitive,
+title={Intersecting-Boundary-Sensitive Fingerprinting for Tampering Detection of {DNN} Models},
+author={Bai Xiaofan and Chaoxiang He and Xiaojing Ma and Bin Benjamin Zhu and Hai Jin},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+url={https://openreview.net/forum?id=kZArjKc64o}
+}
+```
+
 
 
 
