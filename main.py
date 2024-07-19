@@ -120,8 +120,8 @@ if __name__ == '__main__':
     batch_size, n_iter = 1, 5000  
     k = args.k  # top k classes with highest confidence to maximize self-entropy
     assert k <= dataset_info.num_classes and k >= 2, 'k should be in [2, num_of_class]'
-    ss_path = 'outputs/fingerprint/%s/k=%d/BISF_%f_%d_n=%d.npy' % (args.dataset, k, eps,  n_iter, args.num)
-    ss_org_path = 'outputs/fingerprint/%s/k=%d/BISF_%f_%d_org_n=%d.npy' % (args.dataset,  k, eps, n_iter, args.num)
+    ss_path = 'outputs/fingerprint/%s/k=%d/IBSF_%f_%d_n=%d.npy' % (args.dataset, k, eps,  n_iter, args.num)
+    ss_org_path = 'outputs/fingerprint/%s/k=%d/IBSF_%f_%d_org_n=%d.npy' % (args.dataset,  k, eps, n_iter, args.num)
 
     os.makedirs('outputs/fingerprint/%s/k=%d' % (args.dataset, k), exist_ok=True)
     if os.path.exists(ss_path):
