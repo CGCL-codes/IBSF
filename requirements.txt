@@ -1,0 +1,11 @@
+torch
+torchvision
+matplotlib
+numpy
+scipy
+tqdm
+mlconfig
+six
+scikit-learn
+Pillow
+gputil
