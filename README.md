@@ -1,11 +1,11 @@
-## Intersecting Boundary Sensitive Fingerprinting (IBSF)
+## Intersecting-Boundary-Sensitive Fingerprinting (IBSF)
 ![Python 3.6.13](https://img.shields.io/badge/python-3.6.13-green.svg?style=plastic)
 ![PyTorch 1.10.1](https://img.shields.io/badge/torch-1.10.1-green.svg?style=plastic)
 
 This repository contains the PyTorch implementation of the following paper to appear at ICML 2024:
 
-> **Intersecting Boundary Sensitive Fingerprinting for Tampering Detection of DNN Models**<br>
-> Xiaofan Bai, Chaoxiang He, Xiaojing Ma, Bin Benjamin Zhu, and Hai Jin  
+> **Intersecting-Boundary-Sensitive Fingerprinting for Tampering Detection of DNN Models**<br>
+> Xiaofan Bai$^1$, Chaoxiang He$^1$, Xiaojing Ma, Bin Benjamin Zhu, and Hai Jin  
 
 
   
